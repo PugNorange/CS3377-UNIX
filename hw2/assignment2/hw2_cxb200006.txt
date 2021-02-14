@@ -1,0 +1,30 @@
+HW#2 part 2 ~ 5
+
+Q2)
+    a ... simple filename
+    b ... relative path
+    c ... absolute path
+    d ... absolute path
+    e ... relative path
+    f ... filename
+
+Q3)
+    a ... $cd <home_directory>
+    b ... $pwd
+
+Q4)
+    $pwd
+    /home/max
+    $ls
+    literature
+    $cd literature
+    $mkdir classics
+    $ls
+    classics
+
+Q5)
+    a ... The colons separate the fields
+    b ... There are 7 fields
+    c ... $cut -d: -f1 /etc/passwd  (61 users)
+    d ... $cat etc/passwd | cut -d:-f7
+    e ... Since the second field shows `x`, it is using shadow password.
