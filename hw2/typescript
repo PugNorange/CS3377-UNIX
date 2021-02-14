@@ -1,0 +1,1049 @@
+Script started on Sat 13 Feb 2021 08:28:01 PM CST
+[?1034h{cslinux1:~/home/hw2} ps -ef
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Jan17 ?        00:10:29 /usr/lib/systemd/systemd --switched-root --system --deserialize 22
+root         2     0  0 Jan17 ?        00:00:01 [kthreadd]
+root         6     2  0 Jan17 ?        00:01:18 [ksoftirqd/0]
+root         7     2  0 Jan17 ?        00:00:01 [migration/0]
+root         8     2  0 Jan17 ?        00:00:00 [rcu_bh]
+root         9     2  0 Jan17 ?        00:24:08 [rcu_sched]
+root        10     2  0 Jan17 ?        00:00:00 [lru-add-drain]
+root        11     2  0 Jan17 ?        00:00:08 [watchdog/0]
+root        12     2  0 Jan17 ?        00:00:09 [watchdog/1]
+root        13     2  0 Jan17 ?        00:00:00 [migration/1]
+root        14     2  0 Jan17 ?        00:00:06 [ksoftirqd/1]
+root        16     2  0 Jan17 ?        00:00:00 [kworker/1:0H]
+root        18     2  0 Jan17 ?        00:00:09 [watchdog/2]
+root        19     2  0 Jan17 ?        00:00:17 [migration/2]
+root        20     2  0 Jan17 ?        00:00:49 [ksoftirqd/2]
+root        22     2  0 Jan17 ?        00:00:00 [kworker/2:0H]
+root        24     2  0 Jan17 ?        00:00:10 [watchdog/3]
+root        25     2  0 Jan17 ?        00:00:24 [migration/3]
+root        26     2  0 Jan17 ?        00:00:05 [ksoftirqd/3]
+root        28     2  0 Jan17 ?        00:00:00 [kworker/3:0H]
+root        29     2  0 Jan17 ?        00:00:09 [watchdog/4]
+root        30     2  0 Jan17 ?        00:00:02 [migration/4]
+root        31     2  0 Jan17 ?        00:00:55 [ksoftirqd/4]
+root        33     2  0 Jan17 ?        00:00:00 [kworker/4:0H]
+root        34     2  0 Jan17 ?        00:00:09 [watchdog/5]
+root        35     2  0 Jan17 ?        00:00:02 [migration/5]
+root        36     2  0 Jan17 ?        00:00:05 [ksoftirqd/5]
+root        38     2  0 Jan17 ?        00:00:00 [kworker/5:0H]
+root        39     2  0 Jan17 ?        00:00:10 [watchdog/6]
+root        40     2  0 Jan17 ?        00:00:01 [migration/6]
+root        41     2  0 Jan17 ?        00:01:03 [ksoftirqd/6]
+root        44     2  0 Jan17 ?        00:00:09 [watchdog/7]
+root        45     2  0 Jan17 ?        00:00:01 [migration/7]
+root        46     2  0 Jan17 ?        00:00:04 [ksoftirqd/7]
+root        48     2  0 Jan17 ?        00:00:00 [kworker/7:0H]
+root        49     2  0 Jan17 ?        00:00:09 [watchdog/8]
+root        50     2  0 Jan17 ?        00:00:01 [migration/8]
+root        51     2  0 Jan17 ?        00:00:35 [ksoftirqd/8]
+root        53     2  0 Jan17 ?        00:00:00 [kworker/8:0H]
+root        54     2  0 Jan17 ?        00:00:09 [watchdog/9]
+root        55     2  0 Jan17 ?        00:00:01 [migration/9]
+root        56     2  0 Jan17 ?        00:00:04 [ksoftirqd/9]
+root        58     2  0 Jan17 ?        00:00:00 [kworker/9:0H]
+root        59     2  0 Jan17 ?        00:00:09 [watchdog/10]
+root        60     2  0 Jan17 ?        00:00:01 [migration/10]
+root        61     2  0 Jan17 ?        00:00:43 [ksoftirqd/10]
+root        63     2  0 Jan17 ?        00:00:00 [kworker/10:0H]
+root        64     2  0 Jan17 ?        00:00:09 [watchdog/11]
+root        65     2  0 Jan17 ?        00:00:02 [migration/11]
+root        66     2  0 Jan17 ?        00:00:03 [ksoftirqd/11]
+root        68     2  0 Jan17 ?        00:00:00 [kworker/11:0H]
+root        71     2  0 Jan17 ?        00:00:00 [kdevtmpfs]
+root        72     2  0 Jan17 ?        00:00:00 [netns]
+root        73     2  0 Jan17 ?        00:00:01 [khungtaskd]
+root        74     2  0 Jan17 ?        00:00:00 [writeback]
+root        75     2  0 Jan17 ?        00:00:00 [kintegrityd]
+root        76     2  0 Jan17 ?        00:00:00 [bioset]
+root        77     2  0 Jan17 ?        00:00:00 [bioset]
+root        78     2  0 Jan17 ?        00:00:00 [bioset]
+root        79     2  0 Jan17 ?        00:00:00 [kblockd]
+root        81     2  0 Jan17 ?        00:00:00 [md]
+root        82     2  0 Jan17 ?        00:00:00 [edac-poller]
+root        83     2  0 Jan17 ?        00:00:00 [watchdogd]
+root        90     2  0 Jan17 ?        00:00:00 [kswapd0]
+root        91     2  0 Jan17 ?        00:00:00 [kswapd1]
+root        92     2  0 Jan17 ?        00:00:00 [ksmd]
+root        93     2  0 Jan17 ?        00:00:14 [khugepaged]
+root        94     2  0 Jan17 ?        00:00:00 [crypto]
+root       102     2  0 Jan17 ?        00:00:00 [kthrotld]
+root       104     2  0 Jan17 ?        00:00:00 [kmpath_rdacd]
+root       105     2  0 Jan17 ?        00:00:00 [kaluad]
+root       114     2  0 Jan17 ?        00:00:00 [kpsmoused]
+root       116     2  0 Jan17 ?        00:00:00 [ipv6_addrconf]
+root       131     2  0 Jan17 ?        00:00:00 [deferwq]
+root       132     2  0 Jan17 ?        00:01:53 [kworker/u96:1]
+root       176     2  0 Jan17 ?        00:00:19 [kauditd]
+root       314     2  0 Jan17 ?        00:00:00 [scsi_eh_0]
+root       315     2  0 Jan17 ?        00:00:00 [scsi_tmf_0]
+root       338     2  0 Jan17 ?        00:00:00 [ata_sff]
+root       346     2  0 Jan17 ?        00:00:00 [scsi_eh_1]
+root       347     2  0 Jan17 ?        00:00:00 [scsi_tmf_1]
+root       348     2  0 Jan17 ?        00:00:00 [scsi_eh_2]
+root       349     2  0 Jan17 ?        00:00:00 [scsi_tmf_2]
+root       350     2  0 Jan17 ?        00:00:00 [scsi_eh_3]
+root       351     2  0 Jan17 ?        00:00:00 [scsi_tmf_3]
+root       352     2  0 Jan17 ?        00:00:00 [scsi_eh_4]
+root       353     2  0 Jan17 ?        00:00:00 [scsi_tmf_4]
+root       354     2  0 Jan17 ?        00:00:00 [scsi_eh_5]
+root       355     2  0 Jan17 ?        00:00:00 [scsi_tmf_5]
+root       356     2  0 Jan17 ?        00:00:00 [scsi_eh_6]
+root       357     2  0 Jan17 ?        00:00:00 [scsi_tmf_6]
+root       363     2  0 Jan17 ?        00:00:00 [ttm_swap]
+root       364     2  0 Jan17 ?        00:00:00 [poll_megasas0_s]
+root       393     2  0 Jan17 ?        00:00:30 [jbd2/sda3-8]
+root       394     2  0 Jan17 ?        00:00:00 [ext4-rsv-conver]
+root       477     1  0 Jan17 ?        00:02:51 /usr/lib/systemd/systemd-journald
+root       488     2  0 Jan17 ?        00:00:00 [rpciod]
+root       489     2  0 Jan17 ?        00:00:00 [xprtiod]
+root       507     1  0 Jan17 ?        00:00:00 /usr/sbin/lvmetad -f
+root       520     1  0 Jan17 ?        00:00:03 /usr/lib/systemd/systemd-udevd
+hxo1800+  1534 45767  0 19:41 pts/26   00:00:01 emacs file1.cc
+root      1651     2  0 Jan17 ?        00:00:00 [kvm-irqfd-clean]
+arp1800+  1699 16424  0 19:41 pts/43   00:00:00 ./a.out
+arp1800+  1742 16424  0 19:41 pts/43   00:00:00 ./a.out
+root      1815     2  0 Jan17 ?        00:00:00 [jbd2/sda1-8]
+root      1816     2  0 Jan17 ?        00:00:00 [ext4-rsv-conver]
+root      1820     2  0 Jan17 ?        00:00:01 [kworker/3:1H]
+root      1821     2  0 Jan17 ?        00:00:00 [jbd2/sda2-8]
+root      1822     2  0 Jan17 ?        00:00:00 [ext4-rsv-conver]
+root      1827     2  0 Jan17 ?        00:00:51 [jbd2/sda5-8]
+root      1828     2  0 Jan17 ?        00:00:00 [ext4-rsv-conver]
+root      1854     1  0 Jan17 ?        00:00:59 /sbin/auditd
+root      1856  1854  0 Jan17 ?        00:01:09 /sbin/audispd
+root      1857  1856  0 Jan17 ?        00:00:48 /usr/sbin/sedispatch
+rpc       1879     1  0 Jan17 ?        00:00:04 /sbin/rpcbind -w
+root      1881     1  0 Jan17 ?        00:06:22 /usr/sbin/irqbalance --foreground
+root      1882     1  0 Jan17 ?        00:04:18 /sbin/rngd -f
+dbus      1908     1  0 Jan17 ?        00:06:27 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1927     1  0 Jan17 ?        00:00:05 /usr/sbin/gssproxy -D
+root      1928     1  0 Jan17 ?        00:00:00 /usr/sbin/acpid
+polkitd   1934     1  0 Jan17 ?        00:01:58 /usr/lib/polkit-1/polkitd --no-debug
+libstor+  1944     1  0 Jan17 ?        00:00:06 /usr/bin/lsmd -d
+root      1946     2  0 Jan17 ?        00:00:01 [kworker/5:1H]
+rtkit     1960     1  0 Jan17 ?        00:00:39 /usr/libexec/rtkit-daemon
+root      1962     1  0 Jan17 ?        00:00:04 /usr/sbin/sssd -i --logger=files
+root      1965     1  0 Jan17 ?        00:01:19 /opt/dell/srvadmin/sbin/dsm_sa_eventmgrd
+root      1967     1  0 Jan17 ?        00:00:07 /usr/sbin/abrtd -d -s
+root      1973     1  0 Jan17 ?        00:00:10 /usr/bin/abrt-watch-log -F BUG: WARNING: at WARNING: CPU: INFO: possible recursive locking detected ernel BUG
+root      2011     1  0 Jan17 ?        00:00:00 /opt/dell/srvadmin/sbin/dsm_om_connsvcd -run
+root      2026  2011  0 Jan17 ?        01:06:29 /opt/dell/srvadmin/sbin/dsm_om_connsvcd -run
+chrony    2032     1  0 Jan17 ?        00:00:03 /usr/sbin/chronyd
+root      2041     1  0 Jan17 ?        00:00:00 /usr/bin/abrt-watch-log -F Backtrace /var/log/Xorg.0.log -- /usr/bin/abrt-dump-xorg -xD
+root      2047     1  0 Jan17 ?        00:00:06 /usr/sbin/rpc.gssd
+root      2052     1  0 Jan17 ?        00:02:03 /bin/bash /usr/sbin/ksmtuned
+root      2158     2  0 Jan17 ?        00:00:01 [kworker/7:1H]
+root      2251     1  0 Jan17 ?        00:53:29 /opt/dell/srvadmin/sbin/dsm_sa_datamgrd
+root      2386     2  0 Jan17 ?        00:00:01 [kworker/9:1H]
+root      2393     1  0 Jan17 ?        00:00:00 /usr/sbin/cupsd -f
+root      2395     1  0 Jan17 ?        00:03:41 /usr/bin/python2 -Es /usr/sbin/tuned -l -P
+root      2396     1  0 Jan17 ?        00:00:00 /usr/sbin/xinetd -stayalive -pidfile /var/run/xinetd.pid
+root      2397     1  0 Jan17 ?        00:00:24 /usr/sbin/sshd -D
+root      2398     1  0 Jan17 ?        00:03:53 /usr/sbin/lldpad -t
+root      2402     1  0 Jan17 ?        00:20:55 /usr/sbin/snmpd -LS0-6d -f
+rpcuser   2403     1  0 Jan17 ?        00:00:00 /usr/sbin/rpc.statd
+root      2405     2  0 Jan17 ?        00:00:01 [kworker/11:1H]
+root      2406     1  0 Jan17 ?        00:03:47 /usr/sbin/rsyslogd -n
+root      2479     2  0 Jan17 ?        00:00:01 [kworker/1:1H]
+root      2713     1  0 Jan17 ?        00:00:10 /usr/libexec/postfix/master -w
+postfix   2715  2713  0 Jan17 ?        00:00:04 qmgr -l -t unix -u
+colord    2717     1  0 Jan17 ?        00:00:00 /usr/libexec/colord
+root      2755  2251  0 Jan17 ?        00:00:00 /opt/dell/srvadmin/sbin/dsm_sa_datamgrd
+root      2776  1962  0 Jan17 ?        04:36:04 /usr/libexec/sssd/sssd_nss --uid 0 --gid 0 --logger=files
+root      2777  1962  0 Jan17 ?        00:00:18 /usr/libexec/sssd/sssd_sudo --uid 0 --gid 0 --logger=files
+root      2778  1962  0 Jan17 ?        00:26:15 /usr/libexec/sssd/sssd_pam --uid 0 --gid 0 --logger=files
+root      2780  1962  0 Jan17 ?        00:01:39 /usr/libexec/sssd/sssd_ssh --uid 0 --gid 0 --logger=files
+root      2781  1962  0 Jan17 ?        00:02:33 /usr/libexec/sssd/sssd_pac --uid 0 --gid 0 --logger=files
+root      2783     1  0 Jan17 ?        00:04:23 /usr/sbin/automount --systemd-service --dont-check-daemon
+root      2784     1  0 Jan17 ?        00:01:58 /usr/lib/systemd/systemd-logind
+root      2785     1  0 Jan17 ?        00:25:28 /usr/libexec/accounts-daemon
+root      2795     1  0 Jan17 ?        00:00:24 /usr/sbin/lightdm
+root      2796     1  0 Jan17 ?        00:00:00 /usr/sbin/atd -f
+root      2808  2795  0 Jan17 tty1     00:00:00 /usr/bin/X -background none :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt1 -novtswitch -back
+root      2841  2795  0 Jan17 ?        00:00:00 lightdm --session-child 18 21
+root      2845     2  0 Jan17 ?        00:01:02 [kworker/6:1H]
+root      2847     2  0 Jan17 ?        00:01:55 [kworker/8:1H]
+root      2849  1962  4 Jan17 ?        1-02:32:41 /usr/libexec/sssd/sssd_be --domain ipa.utdallas.edu --uid 0 --gid 0 --logger=files
+root      2850  1962  0 Jan17 ?        00:00:40 /usr/libexec/sssd/sssd_autofs --uid 0 --gid 0 --logger=files
+root      2884     2  0 Jan18 ?        00:00:00 [nfsiod]
+root      2903     2  0 Jan18 ?        00:00:00 [lockd]
+lightdm   2905  2841  0 Jan18 ?        00:03:53 /usr/sbin/lightdm-gtk-greeter
+lightdm   2920     1  0 Jan18 ?        00:00:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+lightdm   2926     1  0 Jan18 ?        00:00:00 dbus-launch --autolaunch=a8a78adf810c42668c7f521fe888ddf4 --binary-syntax --close-stderr
+lightdm   2932     1  0 Jan18 ?        00:00:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+lightdm   2936  2920  0 Jan18 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+root      2940  2795  0 Jan18 ?        00:00:00 lightdm --session-child 14 21
+nscd      2952     1  0 Jan18 ?        00:05:11 /usr/local/sbin/nscd7x64 -t 252
+root      3402  2397  0 18:13 ?        00:00:00 sshd: nas180009 [priv]
+root      3463  2397  0 18:13 ?        00:00:00 sshd: mka190000 [priv]
+nas1800+  3531  3402  0 18:13 ?        00:00:01 sshd: nas180009@pts/7
+nas1800+  3534  3531  0 18:13 pts/7    00:00:00 -bash
+mka1900+  3741  3463  0 18:14 ?        00:00:00 sshd: mka190000@pts/30
+mka1900+  3743  3741  0 18:14 pts/30   00:00:00 -bash
+root      4238  2397  0 19:46 ?        00:00:00 sshd: rsb170003 [priv]
+root      4261  2397  0 18:14 ?        00:00:00 sshd: sxk180129 [priv]
+sxk1801+  4295  4261  0 18:14 ?        00:00:00 sshd: sxk180129@pts/37
+sxk1801+  4296  4295  0 18:14 pts/37   00:00:00 -bash
+root      4549  2397  0 19:46 ?        00:00:00 sshd: rsb170003 [priv]
+rsb1700+  4560  4238  0 19:46 ?        00:00:01 sshd: rsb170003@pts/36
+rsb1700+  4562  4560  0 19:46 pts/36   00:00:00 -bash
+rsb1700+  4591  4549  0 19:46 ?        00:00:00 sshd: rsb170003@notty
+rsb1700+  4596  4591  0 19:46 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root      4974     2  0 19:47 ?        00:00:00 [kworker/10:0]
+arp1800+  5073 16424  0 19:47 pts/43   00:00:00 ./a.out
+root      5099  2397  0 19:47 ?        00:00:00 sshd: nna190001 [priv]
+root      5139  2397  0 19:48 ?        00:00:00 sshd: nna190001 [priv]
+nna1900+  5143  5099  0 19:48 ?        00:00:00 sshd: nna190001@pts/41
+nna1900+  5146  5139  0 19:48 ?        00:00:00 sshd: nna190001@notty
+nna1900+  5147  5146  0 19:48 ?        00:00:00 /usr/libexec/openssh/sftp-server
+nna1900+  5152  5143  0 19:48 pts/41   00:00:00 -bash
+root      5274  2397  0 19:48 ?        00:00:00 sshd: rar170000 [priv]
+root      5307  2397  0 19:48 ?        00:00:00 sshd: rar170000 [priv]
+rar1700+  5315  5274  0 19:48 ?        00:00:04 sshd: rar170000@pts/42
+rar1700+  5316  5315  0 19:48 pts/42   00:00:00 -bash
+rar1700+  5317  5315  0 19:48 ?        00:00:06 bash -c while [ -d /proc/$PPID ]; do sleep 1;head -v -n 8 /proc/meminfo; head -v -n 2 /proc/stat /proc/versio
+rar1700+  5405  5307  0 19:48 ?        00:00:00 sshd: rar170000@notty
+rar1700+  5406  5405  0 19:48 ?        00:00:00 /usr/libexec/openssh/sftp-server
+arp1800+  5431 16424  0 19:48 pts/43   00:00:00 ./a.out
+root      5711     2  0 Feb12 ?        00:01:19 [kworker/0:0H]
+root      5767  2397  0 18:17 ?        00:00:00 sshd: rmi190000 [priv]
+root      5972     2  0 18:18 ?        00:00:00 [kworker/9:0]
+root      6036     2  0 19:50 ?        00:00:00 [kworker/1:0]
+root      6046  2397  0 18:18 ?        00:00:00 sshd: rmi190000 [priv]
+rmi1900+  6057  5767  0 18:18 ?        00:00:00 sshd: rmi190000@pts/21
+rmi1900+  6098  6057  0 18:18 pts/21   00:00:00 -bash
+rmi1900+  6141  6046  0 18:18 ?        00:00:00 sshd: rmi190000@notty
+rmi1900+  6151  6141  0 18:18 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root      6696     2  0 Feb04 ?        00:00:00 [nfsv4.0-svc]
+root      6767  2397  0 19:51 ?        00:00:00 sshd: btd180001 [priv]
+root      6817  2397  0 19:51 ?        00:00:00 sshd: btd180001 [priv]
+btd1800+  6828  6767  0 19:51 ?        00:00:00 sshd: btd180001@pts/11
+btd1800+  6829  6828  0 19:51 pts/11   00:00:00 -bash
+btd1800+  6920  6817  0 19:51 ?        00:00:00 sshd: btd180001@notty
+btd1800+  6921  6920  0 19:51 ?        00:00:00 /usr/libexec/openssh/sftp-server
+arp1800+  7621 16424  0 19:53 pts/43   00:00:00 ./a.out
+arp1800+  7746 16424  0 19:53 pts/43   00:00:00 ./a.out
+root      7957  2397  0 19:53 ?        00:00:00 sshd: jio180001 [priv]
+jio1800+  8065  7957  0 19:53 ?        00:00:03 sshd: jio180001@pts/5
+jio1800+  8070  8065  0 19:53 pts/5    00:00:00 -bash
+root      8357     1  0 Feb09 ?        00:00:15 /usr/libexec/udisks2/udisksd
+arp1800+  8908 16424  0 19:55 pts/43   00:00:00 ./a.out
+root      9044  2397  0 18:22 ?        00:00:00 sshd: mxs180114 [priv]
+mxs1801+  9085  9044  0 18:22 ?        00:00:00 sshd: mxs180114@pts/1
+mxs1801+  9086  9085  0 18:22 pts/1    00:00:00 -bash
+root      9355  2397  0 18:23 ?        00:00:00 sshd: mxs180114 [priv]
+mxs1801+  9454  9355  0 18:23 ?        00:00:00 sshd: mxs180114@pts/6
+mxs1801+  9456  9454  0 18:23 pts/6    00:00:00 -bash
+root      9505     2  0 19:56 ?        00:00:00 [kworker/7:1]
+root     10603     2  0 19:58 ?        00:00:00 [kworker/u97:1]
+root     11378  2397  0 20:00 ?        00:00:00 sshd: cem170003 [priv]
+root     11673  2397  0 20:01 ?        00:00:00 sshd: cem170003 [priv]
+cem1700+ 11684 11378  0 20:01 ?        00:00:00 sshd: cem170003@pts/45
+cem1700+ 11685 11684  0 20:01 pts/45   00:00:00 -bash
+cem1700+ 11779 11673  0 20:01 ?        00:00:00 sshd: cem170003@notty
+cem1700+ 11780 11779  0 20:01 ?        00:00:00 /usr/libexec/openssh/sftp-server
+arp1800+ 12646 16424  0 20:02 pts/43   00:00:00 ./a.out
+root     12651     2  0 20:02 ?        00:00:00 [kworker/2:0]
+arp1800+ 12784 16424  0 20:03 pts/43   00:00:00 ./a.out
+root     13294     2  0 18:29 ?        00:00:00 [kworker/1:1]
+arp1800+ 13611 16424  0 20:05 pts/43   00:00:00 ./a.out
+root     13800     2  0 20:05 ?        00:00:00 [kworker/u98:0]
+arp1800+ 13916 16424  0 20:05 pts/43   00:00:00 ./a.out
+root     14014  2397  0 17:00 ?        00:00:00 sshd: amn190000 [priv]
+root     14037  2397  0 18:31 ?        00:00:00 sshd: MSA200007 [priv]
+amn1900+ 14077 14014  0 17:01 ?        00:00:00 sshd: amn190000@pts/38
+amn1900+ 14078 14077  0 17:01 pts/38   00:00:00 -bash
+msa2000+ 14173 14037  0 18:31 ?        00:00:00 sshd: msa200007@pts/50
+msa2000+ 14176 14173  0 18:31 pts/50   00:00:00 -bash
+root     14244  2397  0 17:01 ?        00:00:00 sshd: kjc190001 [priv]
+kjc1900+ 14327 14244  0 17:01 ?        00:00:00 sshd: kjc190001@notty
+kjc1900+ 14328 14327  0 17:01 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root     14914  2397  0 18:32 ?        00:00:00 sshd: kmk180005 [priv]
+kmk1800+ 14943 14914  0 18:32 ?        00:00:00 sshd: kmk180005@notty
+kmk1800+ 14944 14943  0 18:32 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root     14987  2397  0 20:07 ?        00:00:00 sshd: MSA200007 [priv]
+msa2000+ 15065 14987  0 20:08 ?        00:00:00 sshd: msa200007@pts/28
+msa2000+ 15066 15065  0 20:08 pts/28   00:00:00 -bash
+jio1800+ 15450     1  0 20:08 ?        00:00:00 kdeinit4: kded4 [kdeinit]
+jio1800+ 15480     1  0 20:08 ?        00:00:00 /usr/libexec/gam_server
+jio1800+ 15508     1  0 20:08 ?        00:00:00 /usr/bin/kactivitymanagerd
+root     15800     2  0 17:06 ?        00:00:01 [kworker/11:2]
+root     15971  2397  0 20:09 ?        00:00:00 sshd: MSA200007 [priv]
+msa2000+ 16018 15971  0 20:09 ?        00:00:00 sshd: msa200007@pts/35
+msa2000+ 16025 16018  0 20:09 pts/35   00:00:00 -bash
+root     16161  2397  0 18:34 ?        00:00:00 sshd: arp180009 [priv]
+root     16334  2397  0 18:34 ?        00:00:00 sshd: kmk180005 [priv]
+root     16382  2397  0 18:34 ?        00:00:00 sshd: kmk180005 [priv]
+kmk1800+ 16397 16334  0 18:34 ?        00:00:00 sshd: kmk180005@pts/18
+kmk1800+ 16401 16397  0 18:34 pts/18   00:00:00 -bash
+root     16403  2397  0 18:34 ?        00:00:00 sshd: arp180009 [priv]
+arp1800+ 16419 16161  0 18:34 ?        00:00:00 sshd: arp180009@pts/43
+arp1800+ 16424 16419  0 18:34 pts/43   00:00:00 -bash
+kmk1800+ 16585 16382  0 18:34 ?        00:00:00 sshd: kmk180005@notty
+arp1800+ 16586 16403  0 18:34 ?        00:00:00 sshd: arp180009@notty
+kmk1800+ 16587 16585  0 18:34 ?        00:00:00 /usr/libexec/openssh/sftp-server
+arp1800+ 16590 16586  0 18:34 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root     16625  2397  0 20:10 ?        00:00:00 sshd: awd190000 [priv]
+root     16783  2397  0 20:11 ?        00:00:00 sshd: awd190000 [priv]
+awd1900+ 16794 16625  0 20:11 ?        00:00:00 sshd: awd190000@pts/40
+awd1900+ 16795 16794  0 20:11 pts/40   00:00:00 -bash
+awd1900+ 16885 16783  0 20:11 ?        00:00:00 sshd: awd190000@notty
+awd1900+ 16886 16885  0 20:11 ?        00:00:00 /usr/libexec/openssh/sftp-server
+arp1800+ 17257 16424  0 18:35 pts/43   00:00:00 ./a.out
+root     17306     2  0 20:12 ?        00:00:00 [kworker/5:1]
+root     17563     1  0 Feb12 ?        00:00:00 /usr/sbin/crond -n
+jio1800+ 17589  8070  0 20:12 pts/5    00:00:00 /bin/sh /usr/bin/xdg-open generation_monthly.csv
+jio1800+ 17595     1  0 20:12 pts/5    00:00:00 dbus-launch --autolaunch a8a78adf810c42668c7f521fe888ddf4 --binary-syntax --close-stderr
+jio1800+ 17597     1  0 20:12 ?        00:00:00 /usr/bin/dbus-daemon --fork --print-pid 6 --print-address 8 --session
+arp1800+ 17638 16424  0 18:36 pts/43   00:00:00 ./a.out
+root     17674  2397  0 20:12 ?        00:00:00 sshd: sxb180146 [priv]
+jio1800+ 17799 17589  0 20:12 pts/5    00:00:02 /usr/bin/kwrite generation_monthly.csv
+jio1800+ 17819     1  0 20:12 ?        00:00:00 kdeinit4: kdeinit4 Running...
+jio1800+ 17827 17819  0 20:12 ?        00:00:00 kdeinit4: klauncher [kdeinit] --fd=9
+jio1800+ 17836     1  0 20:12 ?        00:00:00 kdeinit4: kded4 [kdeinit]
+mxs1801+ 17846  9086  0 18:36 pts/1    00:00:00 nano deepfile
+jio1800+ 17894     1  0 20:13 ?        00:00:00 /usr/bin/kactivitymanagerd
+sxb1801+ 17950 17674  0 20:13 ?        00:00:00 sshd: sxb180146@pts/0
+sxb1801+ 17951 17950  0 20:13 pts/0    00:00:00 -bash
+abg2000+ 18251 36432  0 20:13 pts/2    00:00:00 emacs file1.cc
+root     18303  2397  0 20:13 ?        00:00:00 sshd: cxb200006 [priv]
+cxb2000+ 18388 18303  0 20:13 ?        00:00:00 sshd: cxb200006@pts/46
+root     18389     2  0 Feb06 ?        00:01:22 [kworker/10:2H]
+cxb2000+ 18390 18388  0 20:13 pts/46   00:00:00 -bash
+arp1800+ 18818 16424  0 18:38 pts/43   00:00:00 ./a.out
+root     19506  2397  0 20:15 ?        00:00:00 sshd: kjc190001 [priv]
+root     19532     2  0 20:15 ?        00:00:00 [kworker/u97:2]
+kjc1900+ 19564 19506  0 20:15 ?        00:00:00 sshd: kjc190001@pts/33
+root     19565  2397  0 20:15 ?        00:00:00 sshd: kjc190001 [priv]
+kjc1900+ 19573 19564  0 20:15 pts/33   00:00:00 -bash
+root     19625     2  0 20:15 ?        00:00:00 [kworker/11:1]
+kjc1900+ 19660 19565  0 20:15 ?        00:00:00 sshd: kjc190001@notty
+kjc1900+ 19661 19660  0 20:15 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root     19809  2397  0 20:16 ?        00:00:00 sshd: ssb170002 [priv]
+arp1800+ 19885 16424  0 18:40 pts/43   00:00:00 ./a.out
+root     19919  2397  0 20:16 ?        00:00:00 sshd: ssb170002 [priv]
+ssb1700+ 19930 19809  0 20:16 ?        00:00:00 sshd: ssb170002@pts/20
+ssb1700+ 19931 19930  0 20:16 pts/20   00:00:00 -bash
+arp1800+ 19936 16424  0 18:40 pts/43   00:00:00 ./a.out
+ssb1700+ 20020 19919  0 20:16 ?        00:00:00 sshd: ssb170002@notty
+ssb1700+ 20021 20020  0 20:16 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root     20168     2  0 20:16 ?        00:00:00 [kworker/6:1]
+root     20232     2  0 20:16 ?        00:00:00 [kworker/4:2]
+root     20362     2  0 18:41 ?        00:00:00 [kworker/3:2]
+nna1900+ 20427  5152  0 20:17 pts/41   00:00:05 emacs program2main.cc
+root     20540  2397  0 Feb05 ?        00:00:00 sshd: rby170000 [priv]
+rby1700+ 20602 20540  0 Feb05 ?        00:00:00 sshd: rby170000@pts/22
+rby1700+ 20603 20602  0 Feb05 pts/22   00:00:00 -bash
+root     20724     2  0 20:17 ?        00:00:00 [kworker/10:1]
+root     20913     2  0 20:17 ?        00:00:00 [kworker/9:2]
+root     20961     2  0 20:17 ?        00:00:00 [kworker/u98:2]
+rar1700+ 21118  5316  0 20:18 pts/42   00:00:04 emacs main.cpp
+root     21134     2  0 20:18 ?        00:00:00 [kworker/2:2]
+root     21324     2  0 20:18 ?        00:00:00 [kworker/0:2]
+root     21349  2397  0 20:18 ?        00:00:00 sshd: njm180002 [priv]
+rby1700+ 21398 20603  0 Feb05 pts/22   00:00:00 [killall] <defunct>
+root     21444  2397  0 20:18 ?        00:00:00 sshd: njm180002 [priv]
+njm1800+ 21456 21349  0 20:18 ?        00:00:00 sshd: njm180002@pts/49
+njm1800+ 21457 21456  0 20:18 pts/49   00:00:00 -bash
+root     21467     2  0 20:18 ?        00:00:00 [kworker/7:2]
+root     21473  2397  0 17:16 ?        00:00:00 sshd: nsm190010 [priv]
+njm1800+ 21484 21444  0 20:18 ?        00:00:00 sshd: njm180002@notty
+njm1800+ 21486 21484  0 20:18 ?        00:00:00 /usr/libexec/openssh/sftp-server
+nsm1900+ 21708 21473  0 17:16 ?        00:00:00 sshd: nsm190010@pts/15
+nsm1900+ 21710 21708  0 17:16 pts/15   00:00:00 -bash
+root     21787  2397  0 20:19 ?        00:00:00 sshd: zxx200003 [priv]
+zxx2000+ 21959 21787  0 20:19 ?        00:00:00 sshd: zxx200003@pts/51
+zxx2000+ 21960 21959  0 20:19 pts/51   00:00:00 -bash
+root     21968     2  0 20:19 ?        00:00:00 [kworker/5:2]
+root     22137     2  0 20:19 ?        00:00:00 [kworker/8:0]
+msa2000+ 22139 14176  0 18:45 pts/50   00:00:00 nano deepfile
+root     22959  2397  0 20:20 ?        00:00:00 sshd: nas180009 [priv]
+root     22990     2  0 20:20 ?        00:00:00 [kworker/3:0]
+nas1800+ 23177 22959  0 20:20 ?        00:00:00 sshd: nas180009@pts/47
+root     23178  2397  0 20:20 ?        00:00:00 sshd: nas180009 [priv]
+nas1800+ 23180 23177  0 20:20 pts/47   00:00:00 -bash
+nas1800+ 23266 23178  0 20:20 ?        00:00:00 sshd: nas180009@notty
+nas1800+ 23278 23266  0 20:20 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root     23302  2397  0 14:48 ?        00:00:00 sshd: asg180005 [priv]
+asg1800+ 23440 23302  0 14:49 ?        00:00:03 sshd: asg180005@pts/39
+asg1800+ 23441 23440  0 14:49 pts/39   00:00:00 -bash
+nas1800+ 23668 23180  1 20:21 pts/47   00:00:04 emacs a3main.cc
+axs1902+ 23711 46533  0 18:48 pts/32   00:00:08 emacs main.cc
+root     24154     2  0 Feb03 ?        00:03:02 [kworker/6:2H]
+dxd0560+ 24179 37542  0 20:22 pts/25   00:00:00 pico paper-jnl.tex
+root     25047     2  0 20:24 ?        00:00:00 [kworker/u98:1]
+crm1900+ 25076 33273  0 20:24 pts/16   00:00:00 ./assignment1
+root     25081     2  0 20:24 ?        00:00:00 [kworker/10:2]
+root     25204  2397  0 20:24 ?        00:00:00 sshd: kwa180002 [priv]
+root     25247  2397  0 20:24 ?        00:00:00 sshd: axs180258 [priv]
+elo1800+ 25293 43023  0 20:24 pts/4    00:00:00 nano electric_report.sh
+root     25318  2397  0 20:24 ?        00:00:00 sshd: axs180258 [priv]
+axs1802+ 25321 25247  0 20:24 ?        00:00:00 sshd: axs180258@pts/31
+axs1802+ 25322 25321  0 20:24 pts/31   00:00:00 -bash
+root     25336     2  0 20:24 ?        00:00:00 [kworker/11:0]
+kwa1800+ 25426 25204  0 20:24 ?        00:00:00 sshd: kwa180002@pts/48
+axs1802+ 25427 25318  0 20:24 ?        00:00:00 sshd: axs180258@notty
+kwa1800+ 25428 25426  0 20:24 pts/48   00:00:00 -bash
+axs1802+ 25431 25427  0 20:24 ?        00:00:00 /usr/libexec/openssh/sftp-server
+kwa1800+ 25720 25428  0 20:25 pts/48   00:00:00 vim tfile1.cc
+arp1800+ 26031 16424  0 18:53 pts/43   00:00:00 ./a.out
+root     26049  2397  0 18:53 ?        00:00:00 sshd: jxb170730 [priv]
+jxb1707+ 26157 26049  0 18:53 ?        00:00:00 sshd: jxb170730@pts/3
+jxb1707+ 26158 26157  0 18:53 pts/3    00:00:00 -bash
+arp1800+ 26667 16424  0 18:54 pts/43   00:00:00 ./a.out
+root     26759  2052  0 20:27 ?        00:00:00 sleep 60
+cxb2000+ 27042 18390  0 20:28 pts/46   00:00:00 script typescript
+cxb2000+ 27044 27042  0 20:28 pts/46   00:00:00 script typescript
+cxb2000+ 27045 27044  0 20:28 pts/34   00:00:00 bash -i
+njm1800+ 27076 21457  1 20:28 pts/49   00:00:00 vim fwe.c
+rar1700+ 27120  5317  0 20:28 ?        00:00:00 sleep 1
+nsm1900+ 27121 21710  0 20:28 pts/15   00:00:00 vim watermelon.cc
+cxb2000+ 27122 27045  0 20:28 pts/34   00:00:00 ps -ef
+root     29154  2397  0 18:58 ?        00:00:00 sshd: rsa190001 [priv]
+root     29203  2397  0 18:58 ?        00:00:00 sshd: rsa190001 [priv]
+rsa1900+ 29216 29154  0 18:58 ?        00:00:00 sshd: rsa190001@pts/9
+rsa1900+ 29217 29216  0 18:58 pts/9    00:00:00 -bash
+rsa1900+ 29253 29203  0 18:58 ?        00:00:00 sshd: rsa190001@notty
+rsa1900+ 29264 29253  0 18:58 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root     31540  2397  0 19:03 ?        00:00:00 sshd: zxx200003 [priv]
+zxx2000+ 31685 31540  0 19:03 ?        00:00:00 sshd: zxx200003@pts/12
+zxx2000+ 31686 31685  0 19:03 pts/12   00:00:00 -bash
+root     32115  2397  0 19:04 ?        00:00:00 sshd: djb190002 [priv]
+root     32197  2397  0 19:04 ?        00:00:00 sshd: djb190002 [priv]
+djb1900+ 32207 32115  0 19:04 ?        00:00:02 sshd: djb190002@pts/10
+djb1900+ 32216 32197  0 19:04 ?        00:00:00 sshd: djb190002@notty
+djb1900+ 32217 32216  0 19:04 ?        00:00:00 /usr/libexec/openssh/sftp-server
+djb1900+ 32234 32207  0 19:04 pts/10   00:00:00 -bash
+root     33138  2397  0 11:58 ?        00:00:00 sshd: crm190001 [priv]
+crm1900+ 33272 33138  0 11:58 ?        00:00:07 sshd: crm190001@pts/16
+crm1900+ 33273 33272  0 11:58 pts/16   00:00:01 -bash
+root     33458  2397  0 19:07 ?        00:00:00 sshd: zas180005 [priv]
+root     33559  2397  0 19:07 ?        00:00:00 sshd: zas180005 [priv]
+zas1800+ 33571 33458  0 19:07 ?        00:00:01 sshd: zas180005@pts/19
+zas1800+ 33572 33571  0 19:07 pts/19   00:00:00 -bash
+zas1800+ 33663 33559  0 19:07 ?        00:00:00 sshd: zas180005@notty
+zas1800+ 33664 33663  0 19:07 ?        00:00:00 /usr/libexec/openssh/sftp-server
+asg1800+ 34357 23441  0 19:09 pts/39   00:00:00 man g++
+asg1800+ 34368 34357  0 19:09 pts/39   00:00:00 less
+root     34387  2397  0 19:09 ?        00:00:00 sshd: axa180116 [priv]
+axa1801+ 34532 34387  0 19:09 ?        00:00:00 sshd: axa180116@pts/23
+axa1801+ 34533 34532  0 19:09 pts/23   00:00:00 -bash
+root     35301  2397  0 15:21 ?        00:00:00 sshd: tbp180000 [priv]
+tbp1800+ 35358 35301  0 15:22 ?        00:00:03 sshd: tbp180000@pts/44
+tbp1800+ 35359 35358  0 15:22 pts/44   00:00:00 -bash
+root     36176  2397  0 12:04 ?        00:00:00 sshd: abg200000 [priv]
+root     36279     2  0 19:12 ?        00:00:00 [kworker/8:2]
+abg2000+ 36431 36176  0 12:05 ?        00:00:03 sshd: abg200000@pts/2
+abg2000+ 36432 36431  0 12:05 pts/2    00:00:00 -bash
+arp1800+ 36485 16424  0 19:12 pts/43   00:00:00 ./a.out
+root     37211  2397  0 19:14 ?        00:00:00 sshd: dxd056000 [priv]
+root     37519  2397  0 19:14 ?        00:00:00 sshd: ymd180001 [priv]
+dxd0560+ 37535 37211  0 19:14 ?        00:00:00 sshd: dxd056000@pts/25
+dxd0560+ 37542 37535  0 19:14 pts/25   00:00:00 -bash
+ymd1800+ 37726 37519  0 19:15 ?        00:00:00 sshd: ymd180001@pts/29
+ymd1800+ 37727 37726  0 19:15 pts/29   00:00:00 -bash
+arp1800+ 38559 16424  0 19:16 pts/43   00:00:00 ./a.out
+arp1800+ 38606 16424  0 19:16 pts/43   00:00:00 ./a.out
+arp1800+ 38669 16424  0 19:16 pts/43   00:00:00 ./a.out
+arp1800+ 39055 16424  0 19:17 pts/43   00:00:00 ./a.out
+root     39078     2  0 17:47 ?        00:00:00 [kworker/0:0]
+postfix  39712  2713  0 19:18 ?        00:00:00 pickup -l -t unix -u
+root     40033     2  0 Feb06 ?        00:00:40 [kworker/4:1H]
+arp1800+ 40385 16424  0 19:20 pts/43   00:00:00 ./a.out
+asg1800+ 40776 23441  0 15:35 pts/39   00:00:00 vim file.txt
+arp1800+ 41062 16424  0 19:21 pts/43   00:00:00 ./a.out
+root     41269     2  0 Feb05 ?        00:00:43 [kworker/2:2H]
+nas1800+ 41840  3534  0 19:23 pts/7    00:00:00 emacs a3main.cc
+root     42949  2397  0 17:55 ?        00:00:00 sshd: ELO180000 [priv]
+elo1800+ 43020 42949  0 17:55 ?        00:00:01 sshd: elo180000@pts/4
+elo1800+ 43023 43020  0 17:55 pts/4    00:00:00 -bash
+root     44020  2397  0 19:28 ?        00:00:00 sshd: mka190000 [priv]
+root     44094     2  0 Feb10 ?        00:00:00 [kworker/u96:0]
+root     44161  2397  0 19:28 ?        00:00:00 sshd: mka190000 [priv]
+mka1900+ 44177 44020  0 19:28 ?        00:00:00 sshd: mka190000@pts/24
+mka1900+ 44178 44161  0 19:28 ?        00:00:00 sshd: mka190000@notty
+mka1900+ 44179 44177  0 19:28 pts/24   00:00:00 -bash
+mka1900+ 44183 44178  0 19:28 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root     44492  2397  0 Feb03 ?        00:00:00 sshd: ozbirn [priv]
+ozbirn   44621 44492  0 Feb03 ?        00:00:03 sshd: ozbirn@pts/27
+ozbirn   44622 44621  0 Feb03 pts/27   00:00:00 -bash
+root     45068     2  0 17:59 ?        00:00:00 [kworker/4:1]
+root     45070     2  0 17:59 ?        00:00:01 [kworker/6:0]
+root     45695  2397  0 19:31 ?        00:00:00 sshd: hxo180002 [priv]
+root     45760  2397  0 19:31 ?        00:00:00 sshd: hxo180002 [priv]
+hxo1800+ 45766 45695  0 19:31 ?        00:00:00 sshd: hxo180002@pts/26
+hxo1800+ 45767 45766  0 19:31 pts/26   00:00:00 -bash
+hxo1800+ 45837 45760  0 19:31 ?        00:00:00 sshd: hxo180002@notty
+hxo1800+ 45851 45837  0 19:31 ?        00:00:00 /usr/libexec/openssh/sftp-server
+mka1900+ 46111 44179  0 19:32 pts/24   00:00:07 emacs main.cpp
+root     46317  2397  0 Feb03 ?        00:00:00 sshd: ozbirn [priv]
+root     46423  2397  0 18:02 ?        00:00:00 sshd: axs190203 [priv]
+ozbirn   46496 46317  0 Feb03 ?        00:00:03 sshd: ozbirn@pts/8
+ozbirn   46505 46496  0 Feb03 pts/8    00:00:00 -bash
+axs1902+ 46530 46423  0 18:02 ?        00:00:01 sshd: axs190203@pts/32
+axs1902+ 46533 46530  0 18:02 pts/32   00:00:00 -bash
+root     46714     1  0 Feb03 ?        00:01:27 /usr/libexec/packagekitd
+root     47218  2397  0 19:34 ?        00:00:00 sshd: maq190000 [priv]
+maq1900+ 47294 47218  0 19:35 ?        00:00:00 sshd: maq190000@pts/13
+maq1900+ 47295 47294  0 19:35 pts/13   00:00:00 -bash
+root     47299  2397  0 18:04 ?        00:00:00 sshd: kml190002 [priv]
+root     47396     2  0 Feb12 ?        00:00:00 [kworker/0:1H]
+kml1900+ 47415 47299  0 18:04 ?        00:00:01 sshd: kml190002@pts/17
+kml1900+ 47416 47415  0 18:04 pts/17   00:00:00 -bash
+maq1900+ 47483 47295  0 19:35 pts/13   00:00:00 vim deepfile
+root     48257  2397  0 19:37 ?        00:00:00 sshd: maq190000 [priv]
+maq1900+ 48311 48257  0 19:37 ?        00:00:00 sshd: maq190000@pts/14
+maq1900+ 48321 48311  0 19:37 pts/14   00:00:00 -bash
+{cslinux1:~/home/hw2} sudo kill -9 1
+ ___________
+< kill -9 1 >
+ -----------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+{cslinux1:~/home/hw2} cat test-cat.txt [K[Ks
+cat: test-cat.txs: No such file or directory
+{cslinux1:~/home/hw2} cat test-cat.txs[Kt
+demo for cat command
+{cslinux1:~/home/hw2} ls \lost+found
+ls: cannot access lost+found: No such file or directory
+{cslinux1:~/home/hw2} apropos compress
+7z (1)               - A file archiver with high compression ratio format
+7za (1)              - A file archiver with high compression ratio format
+aec (1)              - compress or expand files
+aria_pack (1)        - generate compressed, read-only Aria tables
+bunzip2 (1)          - a block-sorting file compressor, v1.0.6
+bzcat (1)            - decompresses files to stdout
+bzcmp (1)            - compare bzip2 compressed files
+bzdiff (1)           - compare bzip2 compressed files
+bzgrep (1)           - search possibly bzip2 compressed files for a regular expression
+bzip2 (1)            - a block-sorting file compressor, v1.0.6
+bzless (1)           - file perusal filter for crt viewing of bzip2 compressed text
+bzmore (1)           - file perusal filter for crt viewing of bzip2 compressed text
+CMS_compress (3ssl)  - create a CMS CompressedData structure
+CMS_uncompress (3ssl) - uncompress a CMS CompressedData structure
+compress (1)         - compress and expand data
+compress (1p)        - compress data
+Compress::Raw::Bzip2 (3pm) - Low-Level Interface to bzip2 compression library
+Compress::Raw::Zlib (3pm) - Low-Level Interface to zlib compression library
+Compress::Zlib (3pm) - Interface to zlib compression library
+DBM_Filter::compress (3pm) - filter for DBM_Filter
+EC_POINT_set_compressed_coordinates_GF2m (3ssl) - Functions for creating, destroying and manipulating EC_POINT objects.
+EC_POINT_set_compressed_coordinates_GFp (3ssl) - Functions for creating, destroying and manipulating EC_POINT objects.
+fiascotopnm (1)      - Convert compressed FIASCO image to PGM, or PPM
+fsck.cramfs (8)      - fsck compressed ROM file system
+glCompressedTexImage1D (3G) - specify a one-dimensional texture image in a compressed format
+glCompressedTexImage2D (3G) - specify a two-dimensional texture image in a compressed format
+glCompressedTexImage3D (3G) - specify a three-dimensional texture image in a compressed format
+glCompressedTexSubImage1D (3G) - specify a one-dimensional texture subimage in a compressed format
+glCompressedTexSubImage2D (3G) - specify a two-dimensional texture subimage in a compressed format
+glCompressedTexSubImage3D (3G) - specify a three-dimensional texture subimage in a compressed format
+glGetCompressedTexImage (3G) - return a compressed texture image
+gnutls_compression_get (3) - API function
+gnutls_compression_get_id (3) - API function
+gnutls_compression_get_name (3) - API function
+gnutls_compression_list (3) - API function
+gnutls_compression_set_priority (3) - API function
+gnutls_priority_compression_list (3) - API function
+gunzip (1)           - compress or expand files
+gzexe (1)            - compress executable files in place
+gzip (1)             - compress or expand files
+h5repack (1)         - Copy an HDF5 file to a new file with or without compression/chunking
+hunzip (1)           - decompress and decrypt hzip files to the standard output
+hwloc-compress-dir (1) - Compress a directory of XML topologies
+hzip (1)             - compress and encrypt dictionary files
+IO::Compress::Base (3pm) - Base Class for IO::Compress modules
+IO::Compress::Bzip2 (3pm) - Write bzip2 files/buffers
+IO::Compress::Deflate (3pm) - Write RFC 1950 files/buffers
+IO::Compress::FAQ (3pm) - - Frequently Asked Questions about IO::Compress
+IO::Compress::Gzip (3pm) - Write RFC 1952 files/buffers
+IO::Compress::RawDeflate (3pm) - Write RFC 1951 files/buffers
+IO::Compress::Zip (3pm) - Write zip files/buffers
+IO::Uncompress::AnyInflate (3pm) - Uncompress zlib-based (zip, gzip) file/buffer
+IO::Uncompress::AnyUncompress (3pm) - Uncompress gzip, zip, bzip2 or lzop file/buffer
+IO::Uncompress::Base (3pm) - Base Class for IO::Uncompress modules
+IO::Uncompress::Bunzip2 (3pm) - Read bzip2 files/buffers
+IO::Uncompress::Gunzip (3pm) - Read RFC 1952 files/buffers
+IO::Uncompress::Inflate (3pm) - Read RFC 1950 files/buffers
+IO::Uncompress::RawInflate (3pm) - Read RFC 1951 files/buffers
+IO::Uncompress::Unzip (3pm) - Read zip files/buffers
+IO::Zlib (3pm)       - IO:: style interface to Compress::Zlib
+ldns_rr_compress (3) - (unknown subject)
+ldns_rr_uncompressed_size (3) - (unknown subject)
+logrotate (8)        - rotates, compresses, and mails system logs
+logrotate.conf (5)   - rotates, compresses, and mails system logs
+lz4 (1)              - lz4, unlz4, lz4cat - Compress or decompress .lz4 files
+lz4c (1)             - lz4, unlz4, lz4cat - Compress or decompress .lz4 files
+lz4cat (1)           - lz4, unlz4, lz4cat - Compress or decompress .lz4 files
+lzcat (1)            - Compress or decompress .xz and .lzma files
+lzcmp (1)            - compare compressed files
+lzdiff (1)           - compare compressed files
+lzegrep (1)          - search compressed files for a regular expression
+lzfgrep (1)          - search compressed files for a regular expression
+lzgrep (1)           - search compressed files for a regular expression
+lzless (1)           - view xz or lzma compressed (text) files
+lzma (1)             - Compress or decompress .xz and .lzma files
+lzmadec (1)          - Small .xz and .lzma decompressors
+lzmore (1)           - view xz or lzma compressed (text) files
+lzop (1)             - compress or expand files
+mkfs.cramfs (8)      - make compressed ROM file system
+mrf (1)              - monochrome recursive format (compressed bitmaps)
+pack200 (1)          - Packages a JAR file into a compressed pack200 file for web deployment.
+pack200-java-1.8.0-openjdk-1.8.0.272.b10-1.el7_9.x86_64 (1) - Packages a JAR file into a compressed pack200 file for web deployment.
+pbmtogo (1)          - convert a PBM image into compressed GraphOn graphics
+pbmtopsg3 (1)        - convert PBM images to Postscript with G3 fax compression
+pmdazswap (1)        - zswap (compressed swap) PMDA
+pnmtofiasco (1)      - Convert PNM file to FIASCO compressed file
+prezip-bin (1)       - prefix zip delta word list compressor/decompressor
+reporter-upload (1)  - Uploads compressed tarball of problem directory.
+spctoppm (1)         - convert an Atari compressed Spectrum file to a PPM
+sputoppm (1)         - convert an Atari uncompressed Spectrum file to a PPM image
+SSL_COMP_add_compression_method (3ssl) - handle SSL/TLS integrated compression methods
+SSL_COMP_free_compression_methods (3ssl) - handle SSL/TLS integrated compression methods
+TIFFWriteEncodedStrip (3tiff) - compress and write a strip of data to an open TIFF file
+TIFFWriteEncodedTile (3tiff) - compress and write a tile of data to an open TIFF file
+uncompress (1)       - compress and expand data
+uncompress (1p)      - expand compressed data
+unlz4 (1)            - lz4, unlz4, lz4cat - Compress or decompress .lz4 files
+unlzma (1)           - Compress or decompress .xz and .lzma files
+unsquashfs (1)       - tool to uncompress squashfs filesystems
+unxz (1)             - Compress or decompress .xz and .lzma files
+unzip (1)            - list, test and extract compressed files in a ZIP archive
+word-list-compress (1) - word list compressor/decompressor for GNU Aspell
+xcb_glx_get_compressed_tex_image_arb (3) - (unknown subject)
+xcb_glx_get_compressed_tex_image_arb_data (3) - (unknown subject)
+xcb_glx_get_compressed_tex_image_arb_data_end (3) - (unknown subject)
+xcb_glx_get_compressed_tex_image_arb_data_length (3) - (unknown subject)
+xcb_glx_get_compressed_tex_image_arb_reply (3) - (unknown subject)
+xcb_glx_get_compressed_tex_image_arb_unchecked (3) - (unknown subject)
+xz (1)               - Compress or decompress .xz and .lzma files
+xzcat (1)            - Compress or decompress .xz and .lzma files
+xzcmp (1)            - compare compressed files
+xzdec (1)            - Small .xz and .lzma decompressors
+xzdiff (1)           - compare compressed files
+xzegrep (1)          - search compressed files for a regular expression
+xzfgrep (1)          - search compressed files for a regular expression
+xzgrep (1)           - search compressed files for a regular expression
+xzless (1)           - view xz or lzma compressed (text) files
+xzmore (1)           - view xz or lzma compressed (text) files
+zcat (1)             - compress or expand files
+zcmp (1)             - compare compressed files
+zdiff (1)            - compare compressed files
+zgrep (1)            - search possibly compressed files for a regular expression
+zip (1)              - package and compress (archive) files
+zless (1)            - file perusal filter for crt viewing of compressed text
+zlib (3)             - compression/decompression library
+zmore (1)            - file perusal filter for crt viewing of compressed text
+znew (1)             - recompress .Z files to .gz files
+{cslinux1:~/home/hw2} ls --help
+Usage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      scale sizes by SIZE before printing them; e.g.,
+                               '--block-size=M' prints sizes in units of
+                               1,048,576 bytes; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'never', 'auto',
+                               or 'always' (the default); more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l, print sizes in human readable format
+                               (e.g., 1K 234M 2G)
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print raw entry names (don't treat e.g. control
+                               characters specially)
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always, c, escape
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            with -l, show time as WORD instead of default
+                               modification time: atime or access or use (-u)
+                               ctime or status (-c); also use specified time
+                               as sort key if --sort=time
+      --time-style=STYLE     with -l, show times using style STYLE:
+                               full-iso, long-iso, iso, locale, or +FORMAT;
+                               FORMAT is interpreted like in 'date'; if FORMAT
+                               is FORMAT1<newline>FORMAT2, then FORMAT1 applies
+                               to non-recent files and FORMAT2 to recent files;
+                               if STYLE is prefixed with 'posix-', STYLE
+                               takes effect only outside the POSIX locale
+  -t                         sort by modification time, newest first
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           assume screen width instead of current value
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -1                         list one file per line
+
+SELinux options:
+
+  --lcontext                 Display security context.   Enable -l. Lines
+                             will probably be too wide for most displays.
+  -Z, --context              Display security context so it fits on most
+                             displays.  Displays only mode, user, group,
+                             security context and file name.
+  --scontext                 Display only security context and file name.
+      --help     display this help and exit
+      --version  output version information and exit
+
+SIZE is an integer and optional unit (example: 10M is 10*1024*1024).  Units
+are K, M, G, T, P, E, Z, Y (powers of 1024) or KB, MB, ... (powers of 1000).
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+For complete documentation, run: info coreutils 'ls invocation'
+{cslinux1:~/home/hw2} echo [K[K[K[K[Khelp echo
+[?1049h[?1h=MAN(1)                                                              Manual pager utils                                                             MAN(1)[m
+[m
+[m
+[m
+[1mNAME[0m[m
+       man - an interface to the on-line reference manuals[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mman[0m  [[1m-C[0m  [4mfile[24m]  [[1m-d[0m]  [[1m-D[0m]  [[1m--warnings[0m[=[4mwarnings[24m]]  [[1m-R[0m  [4mencoding[24m]  [[1m-L[0m  [4mlocale[24m]  [[1m-m[0m  [4msystem[24m[,...]]  [[1m-M[0m [4mpath[24m] [[1m-S[0m [4mlist[24m] [[1m-e[0m [4mextension[24m] [[1m-i[0m|[1m-I[0m][m
+       [[1m--regex[0m|[1m--wildcard[0m] [[1m--names-only[0m] [[1m-a[0m] [[1m-u[0m] [[1m--no-subpages[0m] [[1m-P[0m [4mpager[24m] [[1m-r[0m [4mprompt[24m] [[1m-7[0m] [[1m-E[0m  [4mencoding[24m]  [[1m--no-hyphenation[0m]  [[1m--no-justification[0m][m
+       [[1m-p[0m [4mstring[24m] [[1m-t[0m] [[1m-T[0m[[4mdevice[24m]] [[1m-H[0m[[4mbrowser[24m]] [[1m-X[0m[[4mdpi[24m]] [[1m-Z[0m] [[[4msection[24m] [4mpage[24m ...] ...[m
+       [1mman[0m [1m-k[0m [[4mapropos[24m [4moptions[24m] [4mregexp[24m ...[m
+       [1mman[0m [1m-K[0m [[1m-w[0m|[1m-W[0m] [[1m-S[0m [4mlist[24m] [[1m-i[0m|[1m-I[0m] [[4m--regex[24m] [[4msection[24m] [4mterm[24m ...[m
+       [1mman[0m [1m-f[0m [[4mwhatis[24m [4moptions[24m] [4mpage[24m ...[m
+       [1mman[0m  [1m-l[0m  [[1m-C[0m  [4mfile[24m]  [[1m-d[0m]  [[1m-D[0m]  [[1m--warnings[0m[=[4mwarnings[24m]]  [[1m-R[0m  [4mencoding[24m]  [[1m-L[0m  [4mlocale[24m]  [[1m-P[0m [4mpager[24m] [[1m-r[0m [4mprompt[24m] [[1m-7[0m] [[1m-E[0m [4mencoding[24m] [[1m-p[0m [4mstring[24m] [[1m-t[0m][m
+       [[1m-T[0m[[4mdevice[24m]] [[1m-H[0m[[4mbrowser[24m]] [[1m-X[0m[[4mdpi[24m]] [[1m-Z[0m] [4mfile[24m ...[m
+       [1mman[0m [1m-w[0m|[1m-W[0m [[1m-C[0m [4mfile[24m] [[1m-d[0m] [[1m-D[0m] [4mpage[24m ...[m
+       [1mman[0m [1m-c[0m [[1m-C[0m [4mfile[24m] [[1m-d[0m] [[1m-D[0m] [4mpage[24m ...[m
+       [1mman[0m [[1m-?V[0m][m
+[m
+[1mDESCRIPTION[0m[m
+       [1mman[0m is the system's manual pager. Each [4mpage[24m argument given to [1mman[0m is normally the name of a program, utility or function.  The [4mmanual[24m [4mpage[24m associ‐[m
+       ated with each of these arguments is then found and displayed. A [4msection[24m, if provided, will direct [1mman[0m to look only in that [4msection[24m of the manual.[m
+       The default action is to search in all of the available [4msections[24m, following a pre-defined order and to show only the first  [4mpage[24m  found,  even  if[m
+       [4mpage[24m exists in several [4msections[24m.[m
+[m
+       The table below shows the [4msection[24m numbers of the manual followed by the types of pages they contain.[m
+[m
+[m
+       1   Executable programs or shell commands[m
+       2   System calls (functions provided by the kernel)[m
+       3   Library calls (functions within program libraries)[m
+       4   Special files (usually found in [4m/dev[24m)[m
+       5   File formats and conventions eg [4m/etc/passwd[24m[m
+       6   Games[m
+       7   Miscellaneous (including macro packages and conventions), e.g. [1mman[0m(7), [1mgroff[0m(7)[m
+       8   System administration commands (usually only for root)[m
+       9   Kernel routines [Non standard][m
+[m
+       A manual [4mpage[24m consists of several sections.[m
+[m
+       Conventional  section  names  include  [1mNAME[0m, [1mSYNOPSIS[0m, [1mCONFIGURATION[0m, [1mDESCRIPTION[0m, [1mOPTIONS[0m, [1mEXIT[0m [1mSTATUS[0m, [1mRETURN[0m [1mVALUE[0m, [1mERRORS[0m, [1mENVIRONMENT[0m, [1mFILES[0m,[m
+       [1mVERSIONS[0m, [1mCONFORMING[0m [1mTO[0m, [1mNOTES[0m, [1mBUGS[0m, [1mEXAMPLE[0m, [1mAUTHORS[0m, and [1mSEE[0m [1mALSO[0m.[m
+[m
+       The following conventions apply to the [1mSYNOPSIS[0m section and can be used as a guide in other sections.[m
+[m
+[m
+       [1mbold[0m [1mtext[0m          type exactly as shown.[m
+       [4mitalic[24m [4mtext[24m        replace with appropriate argument.[m
+       [[1m-abc[0m]             any or all arguments within [ ] are optional.[m
+       [1m-a[0m|[1m-b[0m              options delimited by | cannot be used together.[m
+       [4margument[24m ...       [4margument[24m is repeatable.[m
+       [[4mexpression[24m] ...   entire [4mexpression[24m within [ ] is repeatable.[m
+[m
+       Exact rendering may vary depending on the output device.  For instance, man will usually not be able to render italics when running in a terminal,[m
+       and will typically use underlined or coloured text instead.[m
+[m
+       The command or function illustration is a pattern that should match all possible invocations.  In some cases it is advisable to illustrate several[m
+       exclusive invocations as is shown in the [1mSYNOPSIS[0m section of this manual page.[m
+[m
+[1mEXAMPLES[0m[m
+       [1mman[0m [4mls[24m[m
+           Display the manual page for the [4mitem[24m (program) [4mls[24m.[m
+[m
+       [1mman[0m [1m-a[0m [4mintro[24m[m
+           Display, in succession, all of the available [4mintro[24m manual pages contained within the manual.  It is possible to quit between  successive  dis‐[m
+           plays or skip any of them.[m
+[m
+       [1mman[0m [1m-t[0m [4malias[24m | [4mlpr[24m [4m-Pps[24m[m
+           Format  the  manual page referenced by `[4malias[24m', usually a shell manual page, into the default [1mtroff[0m or [1mgroff[0m format and pipe it to the printer[m
+           named [4mps[24m.  The default output for [1mgroff[0m is usually PostScript.  [1mman[0m [1m--help[0m should advise as to which processor is bound to the [1m-t[0m option.[m
+[m
+       [1mman[0m [1m-l[0m [1m-T[0m[4mdvi[24m [4m./foo.1x.gz[24m [1m>[0m [4m./foo.1x.dvi[24m[m
+           This command will decompress and format the nroff source manual page [4m./foo.1x.gz[24m into a [1mdevice[0m [1mindependent[0m [1m(dvi)[0m  file.   The  redirection  is[m
+           necessary as the [1m-T[0m flag causes output to be directed to [1mstdout[0m with no pager.  The output could be viewed with a program such as [1mxdvi[0m or fur‐[m
+[7m Manual page man(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l--Man-- next: echo(1) [ view (return) | skip (Ctrl-D) | quit (Ctrl-C) ]
+
+[?1049h[?1h=ECHO(1)                                                               User Commands                                                               ECHO(1)[m
+[m
+[m
+[m
+[1mNAME[0m[m
+       echo - display a line of text[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mecho[0m [[4mSHORT-OPTION[24m]... [[4mSTRING[24m]...[m
+       [1mecho[0m [4mLONG-OPTION[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Echo the STRING(s) to standard output.[m
+[m
+       [1m-n[0m     do not output the trailing newline[m
+[m
+       [1m-e[0m     enable interpretation of backslash escapes[m
+[m
+       [1m-E[0m     disable interpretation of backslash escapes (default)[m
+[m
+       [1m--help[0m display this help and exit[m
+[m
+       [1m--version[0m[m
+              output version information and exit[m
+[m
+       If [1m-e[0m is in effect, the following sequences are recognized:[m
+[m
+       \\     backslash[m
+[m
+       \a     alert (BEL)[m
+[m
+       \b     backspace[m
+[m
+       \c     produce no further output[m
+[m
+       \e     escape[m
+[m
+       \f     form feed[m
+[m
+       \n     new line[m
+[m
+       \r     carriage return[m
+[m
+       \t     horizontal tab[m
+[m
+       \v     vertical tab[m
+[m
+       \0NNN  byte with octal value NNN (1 to 3 digits)[m
+[m
+       \xHH   byte with hexadecimal value HH (1 to 2 digits)[m
+[m
+       NOTE:  your  shell may have its own version of echo, which usually supersedes the version described here.  Please refer to your shell's documenta‐[m
+       tion for details about the options it supports.[m
+[m
+       GNU coreutils online help: <http://www.gnu.org/software/coreutils/> Report echo translation bugs to <http://translationproject.org/team/>[m
+[m
+[1mAUTHOR[0m[m
+       Written by Brian Fox and Chet Ramey.[m
+[m
+[1mCOPYRIGHT[0m[m
+       Copyright © 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.[m
+       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.[m
+[m
+[1mSEE[0m [1mALSO[0m[m
+       The full documentation for [1mecho[0m is maintained as a Texinfo manual.  If the [1minfo[0m and [1mecho[0m programs are properly installed at your site, the command[m
+[m
+              [1minfo[0m [1mcoreutils[0m [1m'echo[0m [1minvocation'[0m[m
+[m
+       should give you access to the complete manual.[m
+[m
+[m
+[m
+GNU coreutils 8.22                                                    November 2020                                                               ECHO(1)[m
+[7m Manual page echo(1) line 1/73 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l{cslinux1:~/home/hw2} echo Che Blankenship|od
+0000000 064103 020145 066102 067141 062553 071556 064550 005160
+0000020
+{cslinux1:~/home/hw2} echo Che Blankenship|[K > testFile
+{cslinux1:~/home/hw2} rm -rf testFile[Ke 
+{cslinux1:~/home/hw2} cp cpTest1.txt cpTest1.txt [C[1P[1@2[C[C[C[C[1P [1P [1P [1P . t x t 
+{cslinux1:~/home/hw2} mv cpTest1.txt cpTest3.txt
+{cslinux1:~/home/hw2} grep c grepTest.txt 
+{cslinux1:~/home/hw2} head -1 headTailTest.txt 
+
+{cslinux1:~/home/hw2} tail -1 headTailTest.txt 
+fifth-line
+{cslinux1:~/home/hw2} sort sot[KrtTest.txt 
+
+a
+b
+c
+d
+e
+g
+m
+r
+t
+{cslinux1:~/home/hw2} diff diffTest.[K1.txt diffTest2.txt 
+3c3
+< allen
+---
+> alie
+4a5
+> chris
+{cslinux1:~/home/hw2} ls
+anotherDir  cpTest2.txt  cpTest3.txt  diffTest1.txt  diffTest2.txt  grepTest.txt  headTailTest.txt  sortTest.txt  test-cat.txt	testDirectory  typescript
+{cslinux1:~/home/hw2} tar -czvf test.tar.gz testDirectory/
+testDirectory/
+testDirectory/testFile1.txt
+testDirectory/testFile2.txt
+testDirectory/test.tar.gz
+{cslinux1:~/home/hw2} gi[Kzip -v test.tar.gz 
+gzip: test.tar.gz already has .gz suffix -- unchanged
+{cslinux1:~/home/hw2} mv test.tar.gz anotherDir/
+mv: overwrite ‘anotherDir/test.tar.gz’? 
+{cslinux1:~/home/hw2} ls
+anotherDir   cpTest3.txt    diffTest2.txt  headTailTest.txt  test-cat.txt   test.tar.gz
+cpTest2.txt  diffTest1.txt  grepTest.txt   sortTest.txt      testDirectory  typescript
+{cslinux1:~/home/hw2} cd anotherDir/
+{cslinux1:~/home/hw2/anotherDir} ls
+test.tar.gz
+{cslinux1:~/home/hw2/anotherDir} rm -rf test.tar.gz 
+{cslinux1:~/home/hw2/anotherDir} ls
+{cslinux1:~/home/hw2/anotherDir} cd ..
+{cslinux1:~/home/hw2} ls
+anotherDir   cpTest3.txt    diffTest2.txt  headTailTest.txt  test-cat.txt   test.tar.gz
+cpTest2.txt  diffTest1.txt  grepTest.txt   sortTest.txt      testDirectory  typescript
+{cslinux1:~/home/hw2} lscd ..[3Plsrm -rf test.tar.gz ls[Kcd anotherDir/ls[Kmv test.tar.gz anotherDir/
+{cslinux1:~/home/hw2} cd anotherDir/
+{cslinux1:~/home/hw2/anotherDir} ls
+test.tar.gz
+{cslinux1:~/home/hw2/anotherDir} tar -zxvf ./test.tar.gz 
+testDirectory/
+testDirectory/testFile1.txt
+testDirectory/testFile2.txt
+testDirectory/test.tar.gz
+{cslinux1:~/home/hw2/anotherDir} cd ..
+{cslinux1:~/home/hw2} ls
+anotherDir  cpTest2.txt  cpTest3.txt  diffTest1.txt  diffTest2.txt  grepTest.txt  headTailTest.txt  sortTest.txt  test-cat.txt	testDirectory  typescript
+{cslinux1:~/home/hw2} cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:99:99:Nobody:/:/sbin/nologin
+pegasus:x:66:65:tog-pegasus OpenPegasus WBEM/CIM services:/var/lib/Pegasus:/sbin/nologin
+avahi-autoipd:x:170:170:Avahi IPv4LL Stack:/var/lib/avahi-autoipd:/sbin/nologin
+systemd-bus-proxy:x:999:997:systemd Bus Proxy:/:/sbin/nologin
+systemd-network:x:998:996:systemd Network Management:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+polkitd:x:997:995:User for polkitd:/:/sbin/nologin
+sssd:x:996:994:User for sssd:/:/sbin/nologin
+apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
+tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
+colord:x:995:992:User for colord:/var/lib/colord:/sbin/nologin
+abrt:x:173:173::/etc/abrt:/sbin/nologin
+unbound:x:994:991:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+saslauth:x:993:76:Saslauthd user:/run/saslauthd:/sbin/nologin
+postfix:x:89:89::/var/spool/postfix:/sbin/nologin
+libstoragemgmt:x:992:989:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+geoclue:x:991:988:User for geoclue:/var/lib/geoclue:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+setroubleshoot:x:990:987::/var/lib/setroubleshoot:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+ntp:x:38:38::/etc/ntp:/sbin/nologin
+qemu:x:107:107:qemu user:/:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/sbin/nologin
+radvd:x:75:75:radvd user:/:/sbin/nologin
+chrony:x:989:986::/var/lib/chrony:/sbin/nologin
+mysql:x:27:27:MariaDB Server:/var/lib/mysql:/sbin/nologin
+pcp:x:988:985:Performance Co-Pilot:/var/lib/pcp:/sbin/nologin
+pulse:x:171:171:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+tomcat:x:91:91:Apache Tomcat:/usr/share/tomcat:/bin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+gnome-initial-setup:x:987:982::/run/gnome-initial-setup/:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+postgres:x:26:26:PostgreSQL Server:/var/lib/pgsql:/bin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+oprofile:x:16:16:Special user account to be used by OProfile:/var/lib/oprofile:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+cslinuxtech:x:199:199:Computer Science Department:/cslinuxtech:/bin/bash
+nscd:x:28:28:NSCD Daemon:/:/sbin/nologin
+nslcd:x:65:55:LDAP Client User:/:/sbin/nologin
+dovenull:x:237:1376:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologin
+lightdm:x:236:1379::/var/lib/lightdm:/sbin/nologin
+openvpn:x:235:1227:OpenVPN:/etc/openvpn:/sbin/nologin
+nm-openconnect:x:234:1236:NetworkManager user for OpenConnect:/:/sbin/nologin
+nm-openvpn:x:233:980:Default user for running openvpn spawned by NetworkManager:/:/sbin/nologin
+saned:x:232:978:SANE scanner daemon user:/usr/share/sane:/sbin/nologin
+gluster:x:231:1429:GlusterFS daemons:/run/gluster:/sbin/nologin
+cssoft:x:41:41:Mr. CS Soft:/:/sbin/nologin
+{cslinux1:~/home/hw2} date
+Sat Feb 13 20:34:23 CST 2021
+{cslinux1:~/home/hw2} exit
+exit
+
+Script done on Sat 13 Feb 2021 08:34:26 PM CST
